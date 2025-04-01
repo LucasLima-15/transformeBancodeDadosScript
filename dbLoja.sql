@@ -31,7 +31,7 @@ primary key(codFunc)
 insert into tbFuncionarios
 	(nome,email,cpf,telcel,dataNasc,sexo,salario,logradouro,numero,cep,cep,bairro,cidade,estado,siglaEst,complemento)
 
-	values('amarildo Fernadez','amarildo.fernandez@gmail.com','111.222.333-99','97528-8549','1999,09,15','m',4500.00,'Rua das Miragens','55A','Santo Amaro','São Paulo','SP'                       
+	values('amarildo Fernadez','amarildo.fernandez@gmail.com','111.222.333-99','97528-8549','1999,09,15','m',4500.00,'Rua das Miragens','55A','Santo Amaro','São Paulo','SP''Casa dos fundos')                       
 
 create table tbFornecedores(
 codForn int not null auto_increment,
